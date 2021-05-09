@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Whats Episode I Stopped?</title>
+</head>
+<body page="list">
+  <main id="container">
+    <div id="list">
+      <table>
+        <thead>
+          <tr>
+            <th>Series</th>
+            <th>Season</th>
+            <th>Episode</th>
+            <th>insta: osambini ♥</th>
+          </tr>
+        </thead>
+        <tbody id="panel"></tbody>
+      </table>
+      <div>
+        <button onclick="visable('registers', true)">Register</button>
+      </div>
+    </div>
+    <form id="registers">
+      <div class="label">
+          <input type="text" placeholder="Name" id="name">
+      </div>
+      <div class="label">
+          <input type="text" placeholder="Season" id="season">
+      </div>   
+      <div class="label"> 
+          <input type="text" placeholder="Episode" id="episode">      
+      </div>
+      <div>
+        <button>Save</button>
+        <button onclick="visable('list')" class="grey" type="button">Cancel</button>
+      </div>
+    </form>    
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
